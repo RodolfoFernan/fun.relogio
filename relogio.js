@@ -2,7 +2,7 @@
 function startTime()
 {
 var today=new Date();
-var h=today.getHours();
+var h=today.getHours(1);
 var m=today.getMinutes();
 var s=today.getSeconds();
 // add a zero in front of numbers<10
